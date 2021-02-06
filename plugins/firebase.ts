@@ -4,14 +4,12 @@ import 'firebase/auth';
 import 'firebase/analytics';
 import 'firebase/performance';
 
-require('dotenv').config();
-
 const app = firebase.initializeApp({
-  apiKey: process.env.API_KEY,
-  authDomain: process.env.AUTH_DOMAIN,
-  projectId: process.env.PROJECT_ID,
-  appId: process.env.APP_ID,
-  measurementId: process.env.MEASUREMENT_ID,
+  apiKey: 'AIzaSyCDA9Qp7dwiCXgTzb9VgLRJ6qQ2o9YQOZU',
+  authDomain: 'firechat-f499d.firebaseapp.com',
+  projectId: 'firechat-f499d',
+  appId: '1:473536506555:web:42da72166a9cfa950c579e',
+  measurementId: 'G-37B49PCQ59',
 });
 
 export const db = app.firestore();
